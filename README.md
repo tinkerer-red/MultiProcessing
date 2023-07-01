@@ -4,7 +4,7 @@ A simple MultiProcessing example in gml. With a heavy focus on simplicity for ne
 ### Example:
 ```gml
 ///create
-factorial = function(_x, _time) {
+factorial = function(_x) {
 	var _t = _x-1;
 	var _v = _x;
 	repeat (_x-2){

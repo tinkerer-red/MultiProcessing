@@ -1,0 +1,19 @@
+{
+  "FolderOrderSettings": [
+    {"name":"GML MultiProcessing","order":3,"path":"folders/_Libraries/GML MultiProcessing.yy",},
+    {"name":"SystemInfo","order":2,"path":"folders/_Libraries/SystemInfo.yy",},
+    {"name":"xProcess","order":1,"path":"folders/_Libraries/xProcess.yy",},
+  ],
+  "ResourceOrderSettings": [
+    {"name":"objMultiProcessingExample","order":2,"path":"objects/objMultiProcessingExample/objMultiProcessingExample.yy",},
+    {"name":"scrMultiProcessingConfig","order":4,"path":"scripts/scrMultiProcessingConfig/scrMultiProcessingConfig.yy",},
+    {"name":"scr_example","order":2,"path":"scripts/scr_example/scr_example.yy",},
+    {"name":"Credits","order":4,"path":"notes/Credits/Credits.yy",},
+    {"name":"obj_example","order":1,"path":"objects/obj_example/obj_example.yy",},
+    {"name":"scrMultiProcessing","order":3,"path":"scripts/scrMultiProcessing/scrMultiProcessing.yy",},
+    {"name":"libsysinfo","order":2,"path":"extensions/libsysinfo/libsysinfo.yy",},
+    {"name":"debug","order":1,"path":"scripts/debug/debug.yy",},
+    {"name":"rmMultiProcessingExample","order":3,"path":"rooms/rmMultiProcessingExample/rmMultiProcessingExample.yy",},
+    {"name":"scr_window_handling","order":1,"path":"scripts/scr_window_handling/scr_window_handling.yy",},
+  ],
+}

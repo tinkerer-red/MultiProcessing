@@ -106,13 +106,13 @@ function remote_execute_all(_func, _args = undefined, _callback = undefined) {
 	
 	// Processor Count : used to determin how many processes we should spawn.
 	if (MultiProcessing_Unlock_Number_Of_Processes) {
-		global.__MultiProcessingProcessorCount = clamp(floor(cpu_numcpus()*MultiProcessing_Percent_Of_Threads+0.5), MultiProcessing_Number_Of_Processes_Min, MultiProcessing_Number_Of_Processes_Max);
+		global.__MultiProcessingProcessorCount = clamp(floor(((cpu_processor_count() != "(null)") ? int64(cpu_processor_count()) : 1)*MultiProcessing_Percent_Of_Threads+0.5), MultiProcessing_Number_Of_Processes_Min, MultiProcessing_Number_Of_Processes_Max);
 	}
 	else {
 		global.__MultiProcessingProcessorCount = clamp(
-				floor(cpu_numcpus()*MultiProcessing_Percent_Of_Threads+0.5),
+				floor(((cpu_processor_count() != "(null)") ? int64(cpu_processor_count()) : 1)*MultiProcessing_Percent_Of_Threads+0.5),
 				MultiProcessing_Number_Of_Processes_Min,
-				min(cpu_numcpus()-1, MultiProcessing_Number_Of_Processes_Max)
+				min(((cpu_processor_count() != "(null)") ? int64(cpu_processor_count()) : 1)-1, MultiProcessing_Number_Of_Processes_Max)
 			);
 	}
 

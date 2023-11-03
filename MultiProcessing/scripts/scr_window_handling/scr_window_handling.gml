@@ -4,9 +4,9 @@ function window_zoom() {
   } else if (os_kernel_name() == "Darwin") {
     external_call(external_define(working_directory + "libzoom.dylib", "window_zoom", dll_cdecl, ty_real, 1, ty_string), window_handle());
   } else if (os_kernel_name() == "Linux") {
-    if (os_kernel_namemachine() == "x86_64") external_call(external_define(working_directory + "libzoom.so", "window_zoom", dll_cdecl, ty_real, 1, ty_string), window_handle());
-    else if (os_kernel_namemachine() == "aarch64") external_call(external_define(working_directory + "libzoom_arm64.so", "window_zoom", dll_cdecl, ty_real, 1, ty_string), window_handle());
-    else if (os_kernel_namemachine() == "armv7l") external_call(external_define(working_directory + "libzoom_arm.so", "window_zoom", dll_cdecl, ty_real, 1, ty_string), window_handle());
+    if (os_architecture() == "x86_64") external_call(external_define(working_directory + "libzoom.so", "window_zoom", dll_cdecl, ty_real, 1, ty_string), window_handle());
+    else if (os_architecture() == "aarch64") external_call(external_define(working_directory + "libzoom_arm64.so", "window_zoom", dll_cdecl, ty_real, 1, ty_string), window_handle());
+    else if (os_architecture() == "armv7l") external_call(external_define(working_directory + "libzoom_arm.so", "window_zoom", dll_cdecl, ty_real, 1, ty_string), window_handle());
   }
 }
 
@@ -24,9 +24,9 @@ function window_hide() {
   } else if (os_kernel_name() == "Darwin") {
     external_call(external_define(working_directory + "libzoom.dylib", "window_hide", dll_cdecl, ty_real, 1, ty_string), window_handle());
   } else if (os_kernel_name() == "Linux") {
-    if (os_kernel_namemachine() == "x86_64") external_call(external_define(working_directory + "libzoom.so", "window_hide", dll_cdecl, ty_real, 1, ty_string), window_handle());
-    else if (os_kernel_namemachine() == "aarch64") external_call(external_define(working_directory + "libzoom_arm64.so", "window_hide", dll_cdecl, ty_real, 1, ty_string), window_handle());
-    else if (os_kernel_namemachine() == "armv7l") external_call(external_define(working_directory + "libzoom_arm.so", "window_hide", dll_cdecl, ty_real, 1, ty_string), window_handle());
+    if (os_architecture() == "x86_64") external_call(external_define(working_directory + "libzoom.so", "window_hide", dll_cdecl, ty_real, 1, ty_string), window_handle());
+    else if (os_architecture() == "aarch64") external_call(external_define(working_directory + "libzoom_arm64.so", "window_hide", dll_cdecl, ty_real, 1, ty_string), window_handle());
+    else if (os_architecture() == "armv7l") external_call(external_define(working_directory + "libzoom_arm.so", "window_hide", dll_cdecl, ty_real, 1, ty_string), window_handle());
   }
 }
 
@@ -36,8 +36,8 @@ function window_focus() {
   } else if (os_kernel_name() == "Darwin") {
     external_call(external_define(working_directory + "libzoom.dylib", "window_focus", dll_cdecl, ty_real, 1, ty_string), window_handle());
   } else if (os_kernel_name() == "Linux") {
-    if (os_kernel_namemachine() == "x86_64") external_call(external_define(working_directory + "libzoom.so", "window_focus", dll_cdecl, ty_real, 1, ty_string), window_handle());
-    else if (os_kernel_namemachine() == "aarch64") external_call(external_define(working_directory + "libzoom_arm64.so", "window_focus", dll_cdecl, ty_real, 1, ty_string), window_handle());
-    else if (os_kernel_namemachine() == "armv7l") external_call(external_define(working_directory + "libzoom_arm.so", "window_focus", dll_cdecl, ty_real, 1, ty_string), window_handle());
+    if (os_architecture() == "x86_64") external_call(external_define(working_directory + "libzoom.so", "window_focus", dll_cdecl, ty_real, 1, ty_string), window_handle());
+    else if (os_architecture() == "aarch64") external_call(external_define(working_directory + "libzoom_arm64.so", "window_focus", dll_cdecl, ty_real, 1, ty_string), window_handle());
+    else if (os_architecture() == "armv7l") external_call(external_define(working_directory + "libzoom_arm.so", "window_focus", dll_cdecl, ty_real, 1, ty_string), window_handle());
   }
 }

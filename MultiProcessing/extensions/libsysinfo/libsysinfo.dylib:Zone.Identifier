@@ -1,4 +1,0 @@
-[ZoneTransfer]
-ZoneId=3
-ReferrerUrl=https://github.com/time-killer-games/libsysinfo/releases/tag/v1.0.0.0
-HostUrl=https://objects.githubusercontent.com/github-production-release-asset-2e65be/645923561/fe5a035b-f483-4c0e-97fb-c98e7c0a300e?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231105%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231105T060756Z&X-Amz-Expires=300&X-Amz-Signature=38c1f5456b616520b5ec0d4f18b4baf46f58365f7c59b20c4b7784587e90154c&X-Amz-SignedHeaders=host&actor_id=4379204&key_id=0&repo_id=645923561&response-content-disposition=attachment%3B%20filename%3Dlibsysinfo.dylib&response-content-type=application%2Foctet-stream

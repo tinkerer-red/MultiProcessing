@@ -1,0 +1,53 @@
+{
+  "resourceType": "GMProject",
+  "resourceVersion": "1.7",
+  "name": "MultiProcessing",
+  "AudioGroups": [
+    {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
+  ],
+  "configs": {
+    "children": [],
+    "name": "Default",
+  },
+  "defaultScriptType": 1,
+  "Folders": [
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"_Libraries","folderPath":"folders/_Libraries.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"GML MultiProcessing","folderPath":"folders/_Libraries/GML MultiProcessing.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"SystemInfo","folderPath":"folders/_Libraries/SystemInfo.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"xProcess","folderPath":"folders/_Libraries/xProcess.yy",},
+  ],
+  "IncludedFiles": [
+    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"libzoom_arm.so","CopyToMask":-1,"filePath":"datafiles",},
+    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"libzoom_arm64.so","CopyToMask":-1,"filePath":"datafiles",},
+    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"libzoom.cpp","CopyToMask":-1,"filePath":"datafiles",},
+    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"libzoom.dll","CopyToMask":-1,"filePath":"datafiles",},
+    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"libzoom.dylib","CopyToMask":-1,"filePath":"datafiles",},
+    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"libzoom.so","CopyToMask":-1,"filePath":"datafiles",},
+  ],
+  "isEcma": false,
+  "LibraryEmitters": [],
+  "MetaData": {
+    "IDEVersion": "2023.6.0.92",
+  },
+  "resources": [
+    {"id":{"name":"objMultiProcessingExample","path":"objects/objMultiProcessingExample/objMultiProcessingExample.yy",},},
+    {"id":{"name":"libxprocess","path":"extensions/libxprocess/libxprocess.yy",},},
+    {"id":{"name":"scrMultiProcessingConfig","path":"scripts/scrMultiProcessingConfig/scrMultiProcessingConfig.yy",},},
+    {"id":{"name":"scr_example","path":"scripts/scr_example/scr_example.yy",},},
+    {"id":{"name":"objMultiProcessing","path":"objects/objMultiProcessing/objMultiProcessing.yy",},},
+    {"id":{"name":"xProcess-Credits","path":"notes/xProcess-Credits/xProcess-Credits.yy",},},
+    {"id":{"name":"obj_example","path":"objects/obj_example/obj_example.yy",},},
+    {"id":{"name":"scrMultiProcessing","path":"scripts/scrMultiProcessing/scrMultiProcessing.yy",},},
+    {"id":{"name":"debug","path":"scripts/debug/debug.yy",},},
+    {"id":{"name":"libsysinfo","path":"extensions/libsysinfo/libsysinfo.yy",},},
+    {"id":{"name":"rmMultiProcessingExample","path":"rooms/rmMultiProcessingExample/rmMultiProcessingExample.yy",},},
+    {"id":{"name":"SystemInfo-Credits","path":"notes/SystemInfo-Credits/SystemInfo-Credits.yy",},},
+    {"id":{"name":"scr_window_handling","path":"scripts/scr_window_handling/scr_window_handling.yy",},},
+  ],
+  "RoomOrderNodes": [
+    {"roomId":{"name":"rmMultiProcessingExample","path":"rooms/rmMultiProcessingExample/rmMultiProcessingExample.yy",},},
+  ],
+  "TextureGroups": [
+    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
+  ],
+}
